@@ -13,14 +13,14 @@ function perkalianUnik(arr){
     newArr.splice(i, 1);
     var multiply = 1;
 
-    //pengulangan untuk mengkalikan isi dari array newArr yaitu 4 * 6
+
     for(var k = 0; k < newArr.length; k++ ){
       multiply *= newArr[k];
       
     }
 
     
-    resultArr.push(multiply);//yaitu 4*6
+    resultArr.push(multiply);
     // console.log(newArr);
   }
 
